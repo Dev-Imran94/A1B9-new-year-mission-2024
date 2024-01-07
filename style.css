@@ -1,0 +1,8 @@
+/* common shared styles */
+body {
+    background-image: url("images/Rectangle\ 14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 240px;
+}
