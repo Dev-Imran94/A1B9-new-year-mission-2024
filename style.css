@@ -1,4 +1,4 @@
-/* common shared styles */
+/* <<< common shared styles >>> */
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ footer {
     font-family: 'Poppins', sans-serif;
 }
 
-/* header related styles */
+/* <<< header related styles >>>*/
 
 .container {
     margin-top: 50px;
@@ -55,7 +55,7 @@ footer {
     font-size: 54px;
 }
 
-/* main section styles */
+/* <<< main section styles >>> */
 
 .pro-heading {
     align-items: center;
@@ -72,3 +72,30 @@ footer {
     font-weight: 500;
     margin-top: 20px;
 }
+
+.pro-catagory {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.img-hny{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/*  <<< midnight party section styles >>> */
+
+.midnight-party{
+    display: block;
+    height: auto;
+    width: auto;
+    background-image: url("./images/Group\ 100.png");
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
