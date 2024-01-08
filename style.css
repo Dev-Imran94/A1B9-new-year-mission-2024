@@ -28,7 +28,7 @@ footer {
 
 .banner {
     display: block;
-    background-image: url("images/Rectangle\ 14.png");
+    background-image: url("./images/Banner\ Image.png");
     border-radius: 16px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,12 +90,11 @@ footer {
 
 .midnight-party{
     display: block;
-    height: auto;
-    width: auto;
-    background-image: url("./images/Group\ 100.png");
+    height: 600px;
+    width: 1320px;
+    background-image: url("./images/Vectorrr.png");
     border-radius: 16px;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom center;
+    background-position: center;
 }
 
