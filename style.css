@@ -232,3 +232,41 @@ footer {
 }
 
 /* <<< newsletter section styles >>> */
+
+.news-heading {
+  display: flex;
+  margin: 50px auto;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1200px;
+  height: 616px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  font-family: 'Merriweather', serif;
+}
+
+footer {
+  display: flex;
+  height: 200px;
+  background-color: #070211;
+  color: #FFF;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.copyright {
+  text-align: left;
+  position: absolute;
+}
+
+.custom-line{
+  color: #FFF;
+  height: 5px;
+}
