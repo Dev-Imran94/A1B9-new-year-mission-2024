@@ -1,100 +1,232 @@
 /* <<< common shared styles >>> */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', serif;
 }
 
 main {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 footer {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* <<< header related styles >>>*/
 
 .container {
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: 1320px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1320px;
 }
 
 .banner {
-    display: block;
-    background-image: url("./images/Banner\ Image.png");
-    border-radius: 16px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom center;
+  display: block;
+  background-image: url("images/banner.png");
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
 }
 
 .banner-text {
-    max-width: 520px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 250px 344px 100px;
-    color: white;
+  max-width: 520px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 250px 344px 100px;
+  color: white;
+}
+
+
+.banner {
+  position: relative;
+  z-index: 1;
+}
+
+.banner::before {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+  content: "";
+  border-radius: 40px;
+}
+
+.banner .banner-text {
+  position: relative;
+  z-index: 9;
 }
 
 .h6 {
-    align-items: center;
-    font-weight: 400;
-    font-size: 18px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .h2 {
-    align-items: center;
-    font-weight: 900;
-    font-size: 54px;
+  align-items: center;
+  font-weight: 900;
+  font-size: 54px;
 }
 
 /* <<< main section styles >>> */
 
+.promotion {
+  padding: 60px 0 0;
+
+}
+
 .pro-heading {
-    align-items: center;
-    color: #F00;
-    text-align: center;
-    font-size: 88px;
-    font-weight: 700;
+  align-items: center;
+  color: #F00;
+  text-align: center;
+  font-size: 88px;
+  font-weight: 700;
 }
 
 .pro-para {
-    color: #F00;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 500;
-    margin-top: 20px;
+  color: #F00;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 20px;
 }
 
 .pro-catagory {
-    color: #070211;
-    text-align: center;
-    font-size: 48px;
-    font-weight: 700;
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
 }
 
-.img-hny{
-    display: block;
-    margin: 0 auto;
-    margin-top: 50px;
+.img-hny {
+  display: block;
+  margin: 50px auto 50px;
+
 }
 
 /*  <<< midnight party section styles >>> */
 
-.midnight-party{
-    display: block;
-    height: 600px;
-    width: 1320px;
-    background-image: url("./images/Vectorrr.png");
-    border-radius: 16px;
-    background-repeat: no-repeat;
-    background-position: center;
+.midnight-party {
+  display: block;
+  height: 600px;
+  width: 1200px;
+  background-image: url("images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  border-radius: 40px;
 }
 
+
+.midnight-party {
+  position: relative;
+  z-index: 1;
+}
+
+.midnight-party::before {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+  content: "";
+  border-radius: 40px;
+}
+
+.midnight-party .party-content {
+  position: relative;
+  z-index: 9;
+  margin: auto;
+}
+
+.midnight-party .party-content .party-text {
+  max-width: 50%;
+  float: left;
+  padding: 150px 20px 100px 50px;
+}
+
+.midnight-party .party-content img {
+  padding: 110px 50px 50px 140px;
+}
+
+.midnight-party .party-content .party-text h1,
+.midnight-party .party-content .party-text p {
+  color: #FFF;
+}
+
+.midnight-party .party-content .party-text h1 {
+  font-size: 60px;
+  font-family: 'Merriweather', serif;
+  letter-spacing: 5px;
+}
+
+.midnight-party .party-content .party-text button {
+  padding: 15px 25px;
+  background: #FFF;
+  margin-top: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+
+}
+
+.midnight-party .party-content .party-text button:hover {
+  background: #0074E8;
+  color: #FFF;
+}
+
+/* <<< portfolio styles stat here >>> */
+
+.portfolio {
+  padding: 50px 0;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.portfolio-intro {
+  max-width: 800px;
+  padding: 40px 0 30px;
+}
+
+.portfolio-intro .subtitle {
+  font-size: 24px;
+  color: red;
+}
+
+.portfolio-intro .portfolio-title {
+  font-size: 48px;
+  font-family: 'Merriweather', sans-serif;
+  margin-bottom: 20px
+}
+
+.portfilo-items .item {
+  width: 380px;
+  float: left;
+  padding: 10px;
+}
+
+.portfolio-desc {
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.portfilo-items .item img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(70%);
+  transition: 0.2s ease-in-out;
+}
+
+.portfilo-items .item:hover img {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+
+}
