@@ -43,7 +43,6 @@ footer {
   color: white;
 }
 
-
 .banner {
   position: relative;
   z-index: 1;
@@ -64,10 +63,10 @@ footer {
   z-index: 9;
 }
 
-.h6 {
+.h6 { 
   align-items: center;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .h2 {
@@ -95,7 +94,7 @@ footer {
   color: #F00;
   text-align: center;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 20px;
 }
 
@@ -236,7 +235,6 @@ footer {
   display: flex;
   flex-direction: column;
   margin: 50px auto;
-  padding: 20px;
   align-items: center;
   justify-content: space-evenly;
   width: 1200px;
@@ -252,6 +250,7 @@ footer {
   color: #FFF;
   margin-top: 20px;
   font-weight: bolder;
+  font-size: 16px;
   border-radius: 10px;
   border: #FFF;
 }
@@ -259,6 +258,7 @@ footer {
 .sub-form{
   padding: 15px 25px;
   border-radius: 10px;
+  font-size: 16px;
   border: #FFF;
 }
 
