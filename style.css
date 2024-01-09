@@ -247,7 +247,6 @@ footer {
 }
 
 footer {
-  display: flex;
   height: 200px;
   background-color: #070211;
   color: #FFF;
@@ -258,7 +257,7 @@ footer {
   align-items: center;
   padding: 0 30px;
   justify-content: space-between;
-  gap: 10px;
+  gap: 5px;
 }
 
 .copyright {
@@ -266,7 +265,7 @@ footer {
   position: absolute;
 }
 
-.custom-line{
+.custom-line {
   color: #FFF;
   height: 5px;
 }
