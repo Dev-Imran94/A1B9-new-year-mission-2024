@@ -234,18 +234,36 @@ footer {
 
 .news-heading {
   display: flex;
+  flex-direction: column;
   margin: 50px auto;
   padding: 20px;
   align-items: center;
-  justify-content: space-around;
-  max-width: 1200px;
-  height: 616px;
+  justify-content: space-evenly;
+  width: 1200px;
+  height: 600px;
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
   font-family: 'Merriweather', serif;
 }
- /* footer styles  */
- 
+
+.sub-btn {
+  padding: 15px 25px;
+  background: #F00;
+  color: #FFF;
+  margin-top: 20px;
+  font-weight: bolder;
+  border-radius: 10px;
+  border: #FFF;
+}
+
+.sub-form{
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: #FFF;
+}
+
+/* footer styles  */
+
 footer {
   height: 200px;
   background-color: #070211;
